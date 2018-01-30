@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{Algorithms}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Use an algorithm given in words}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Implement an algorithm given in the form of a flow chat}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Bubble sort}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Binary search}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Implement the three bin packing algorithms}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Graphs and networks}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Basic Graph theory}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Adjacency Matrix and Distance matrix}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Algorithms on networks}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Kruskal's algorithm}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Prim's algorithm}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Dijkstra's algorithm}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Route inspection \(Chinese postman problem\)}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Traversable}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Chinese postman algorithm \(route inspection algorithm\)}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Critical path analysis}{}% 17
+\BOOKMARK [1][-]{section.6}{Linear programming}{}% 18
+\BOOKMARK [1][-]{section.7}{Matchings}{}% 19
+\BOOKMARK [1][-]{section.8}{Transportation problems}{}% 20
+\BOOKMARK [1][-]{section.9}{Allocation \(assignment\) problems}{}% 21
+\BOOKMARK [1][-]{section.10}{The travelling salesman problem}{}% 22
+\BOOKMARK [1][-]{section.11}{Further linear programming}{}% 23
+\BOOKMARK [1][-]{section.12}{Game theory}{}% 24
+\BOOKMARK [1][-]{section.13}{Network flows}{}% 25
+\BOOKMARK [1][-]{section.14}{Dynamic programming}{}% 26
