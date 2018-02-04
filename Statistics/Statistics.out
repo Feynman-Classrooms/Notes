@@ -1,23 +1,48 @@
 \BOOKMARK [1][-]{section.1}{Representation and summary of data - location}{}% 1
-\BOOKMARK [1][-]{section.2}{Representation and summary of data - measures of dispersion}{}% 2
-\BOOKMARK [1][-]{section.3}{Representation of data}{}% 3
-\BOOKMARK [1][-]{section.4}{Probability}{}% 4
-\BOOKMARK [1][-]{section.5}{Correlation}{}% 5
-\BOOKMARK [1][-]{section.6}{Regression}{}% 6
-\BOOKMARK [1][-]{section.7}{Discrete random variables}{}% 7
-\BOOKMARK [1][-]{section.8}{The normal distribution}{}% 8
-\BOOKMARK [1][-]{section.9}{Binomial distribution}{}% 9
-\BOOKMARK [1][-]{section.10}{Poisson distribution}{}% 10
-\BOOKMARK [1][-]{section.11}{Continuous random variables}{}% 11
-\BOOKMARK [1][-]{section.12}{Continuous uniform distribution}{}% 12
-\BOOKMARK [1][-]{section.13}{Normal approximation}{}% 13
-\BOOKMARK [1][-]{section.14}{Population and samples}{}% 14
-\BOOKMARK [1][-]{section.15}{Hypothesis testing}{}% 15
-\BOOKMARK [1][-]{section.16}{Combination of random variables}{}% 16
-\BOOKMARK [1][-]{section.17}{Sampling}{}% 17
-\BOOKMARK [1][-]{section.18}{Estimation , confidence intervals and tests}{}% 18
-\BOOKMARK [1][-]{section.19}{Goodness of fit and contingency tables}{}% 19
-\BOOKMARK [1][-]{section.20}{Regression and correlation}{}% 20
-\BOOKMARK [1][-]{section.21}{Quality of tests and estimators}{}% 21
-\BOOKMARK [1][-]{section.22}{One-sample procedures}{}% 22
-\BOOKMARK [1][-]{section.23}{Two-sample procedures}{}% 23
+\BOOKMARK [2][-]{subsection.1.1}{Basic Concepts of Variable}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Grouped data}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Mean , mode and median}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Representation and summary of data - measures of dispersion}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Range and Interquartile range}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Variance and standard deviation}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Representation of data}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Stem and Leaf diagrams}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Outlier}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Box plot}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Histogram}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.5}{Skewness \(Shape\)}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.6}{What!?}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Probability}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Classical Probability}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Venn diagram and their rules}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Conditional Probabilites}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Vann diagram}{subsection.4.3}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Tree diagram}{subsection.4.3}% 20
+\BOOKMARK [2][-]{subsection.4.4}{Special Events of Probabilites}{section.4}% 21
+\BOOKMARK [1][-]{section.5}{Correlation}{}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Correlation}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Bivariate data}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Product moment Correlation coefficient r}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Coding}{section.5}% 26
+\BOOKMARK [1][-]{section.6}{Regression}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Linear}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Coding}{section.6}% 29
+\BOOKMARK [1][-]{section.7}{Discrete random variables}{}% 30
+\BOOKMARK [2][-]{subsection.7.1}{Probability distribution}{section.7}% 31
+\BOOKMARK [2][-]{subsection.7.2}{Coding}{section.7}% 32
+\BOOKMARK [1][-]{section.8}{The normal distribution}{}% 33
+\BOOKMARK [1][-]{section.9}{Binomial distribution}{}% 34
+\BOOKMARK [1][-]{section.10}{Poisson distribution}{}% 35
+\BOOKMARK [1][-]{section.11}{Continuous random variables}{}% 36
+\BOOKMARK [1][-]{section.12}{Continuous uniform distribution}{}% 37
+\BOOKMARK [1][-]{section.13}{Normal approximation}{}% 38
+\BOOKMARK [1][-]{section.14}{Population and samples}{}% 39
+\BOOKMARK [1][-]{section.15}{Hypothesis testing}{}% 40
+\BOOKMARK [1][-]{section.16}{Combination of random variables}{}% 41
+\BOOKMARK [1][-]{section.17}{Sampling}{}% 42
+\BOOKMARK [1][-]{section.18}{Estimation , confidence intervals and tests}{}% 43
+\BOOKMARK [1][-]{section.19}{Goodness of fit and contingency tables}{}% 44
+\BOOKMARK [1][-]{section.20}{Regression and correlation}{}% 45
+\BOOKMARK [1][-]{section.21}{Quality of tests and estimators}{}% 46
+\BOOKMARK [1][-]{section.22}{One-sample procedures}{}% 47
+\BOOKMARK [1][-]{section.23}{Two-sample procedures}{}% 48
