@@ -15,12 +15,22 @@
 \BOOKMARK [2][-]{subsection.4.1}{Traversable}{section.4}% 15
 \BOOKMARK [2][-]{subsection.4.2}{Chinese postman algorithm \(route inspection algorithm\)}{section.4}% 16
 \BOOKMARK [1][-]{section.5}{Critical path analysis}{}% 17
-\BOOKMARK [1][-]{section.6}{Linear programming}{}% 18
-\BOOKMARK [1][-]{section.7}{Matchings}{}% 19
-\BOOKMARK [1][-]{section.8}{Transportation problems}{}% 20
-\BOOKMARK [1][-]{section.9}{Allocation \(assignment\) problems}{}% 21
-\BOOKMARK [1][-]{section.10}{The travelling salesman problem}{}% 22
-\BOOKMARK [1][-]{section.11}{Further linear programming}{}% 23
-\BOOKMARK [1][-]{section.12}{Game theory}{}% 24
-\BOOKMARK [1][-]{section.13}{Network flows}{}% 25
-\BOOKMARK [1][-]{section.14}{Dynamic programming}{}% 26
+\BOOKMARK [2][-]{subsection.5.1}{Basic calculation}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Total float}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{Cascade \(Gantt\) charts}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Linear programming}{}% 21
+\BOOKMARK [1][-]{section.7}{Matchings}{}% 22
+\BOOKMARK [1][-]{section.8}{Transportation problems}{}% 23
+\BOOKMARK [2][-]{subsection.8.1}{North-west corner method}{section.8}% 24
+\BOOKMARK [2][-]{subsection.8.2}{Shadow costs}{section.8}% 25
+\BOOKMARK [2][-]{subsection.8.3}{Improvement indices}{section.8}% 26
+\BOOKMARK [2][-]{subsection.8.4}{Stepping-stone method}{section.8}% 27
+\BOOKMARK [2][-]{subsection.8.5}{Transportation problem and linear programming}{section.8}% 28
+\BOOKMARK [1][-]{section.9}{Allocation \(assignment\) problems}{}% 29
+\BOOKMARK [2][-]{subsection.9.1}{Reduce cost matrics}{section.9}% 30
+\BOOKMARK [2][-]{subsection.9.2}{Hungarian algorithm}{section.9}% 31
+\BOOKMARK [1][-]{section.10}{The travelling salesman problem}{}% 32
+\BOOKMARK [1][-]{section.11}{Further linear programming}{}% 33
+\BOOKMARK [1][-]{section.12}{Game theory}{}% 34
+\BOOKMARK [1][-]{section.13}{Network flows}{}% 35
+\BOOKMARK [1][-]{section.14}{Dynamic programming}{}% 36

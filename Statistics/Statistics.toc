@@ -2,9 +2,15 @@
 \contentsline {subsection}{\numberline {1.1}Basic Concepts of Variable}{4}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Grouped data}{4}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Mean , mode and median}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Linear interpolation}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Coding}{4}{subsection.1.5}
 \contentsline {section}{\numberline {2}Representation and summary of data - measures of dispersion}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Range and Interquartile range}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Variance and standard deviation}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.1}Range and interquartile range}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Percentiles split the data into 100 parts}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Range and Interquartile range}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Variance and standard deviation}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Variance and standard deviation for grouped data}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Coding}{5}{subsection.2.6}
 \contentsline {section}{\numberline {3}Representation of data}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Stem and Leaf diagrams}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Outlier}{6}{subsection.3.2}
