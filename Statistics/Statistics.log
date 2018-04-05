@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.15)  4 APR 2018 01:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.15)  6 APR 2018 03:05
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Statistics.tex
-(./Statistics.tex
+**/Users/lelouch9625/Documents/GitHub/Notes/Statistics/Statistics.tex
+(/Users/lelouch9625/Documents/GitHub/Notes/Statistics/Statistics.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -1617,38 +1617,128 @@ istics.toc [2])
 \tf@toc=\write7
 \openout7 = `Statistics.toc'.
 
- [3] [4] [5] [6]
-[7]
+ [3] [4] [5]
+<img_S/4_intro.png, id=338, 671.50874pt x 271.0125pt>
+File: img_S/4_intro.png Graphic file (type png)
+ <use img_S/4_intro.png>
+Package pdftex.def Info: img_S/4_intro.png used on input line 142.
+(pdftex.def)             Requested size: 335.75356pt x 135.5059pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+<img_S/3_5_intro1.png, id=340, 431.6125pt x 260.975pt>
+File: img_S/3_5_intro1.png Graphic file (type png)
+
+<use img_S/3_5_intro1.png>
+Package pdftex.def Info: img_S/3_5_intro1.png used on input line 162.
+(pdftex.def)             Requested size: 215.80571pt x 130.48718pt.
+ [6 <./img_S/4_intro.png>]
+<img_S/3_5_intro2.png, id=346, 443.6575pt x 247.92625pt>
+File: img_S/3_5_intro2.png Graphic file (type png)
+
+<use img_S/3_5_intro2.png>
+Package pdftex.def Info: img_S/3_5_intro2.png used on input line 166.
+(pdftex.def)             Requested size: 221.8282pt x 123.96281pt.
+
+<img_S/3_5_intro3.png, id=347, 432.61626pt x 247.92625pt>
+File: img_S/3_5_intro3.png Graphic file (type png)
+
+<use img_S/3_5_intro3.png>
+Package pdftex.def Info: img_S/3_5_intro3.png used on input line 170.
+(pdftex.def)             Requested size: 216.3076pt x 123.96281pt.
+ [7 <./img_S/3_5_intro1.png> <./img_S/3_5_intro2.png> <./img_S/3_5_intro3.png>]
+
+<img_S/4_6_intro.png, id=356, 279.0425pt x 173.64874pt>
+File: img_S/4_6_intro.png Graphic file (type png)
+
+<use img_S/4_6_intro.png>
+Package pdftex.def Info: img_S/4_6_intro.png used on input line 196.
+(pdftex.def)             Requested size: 139.5209pt x 86.82416pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+[8 <./img_S/4_6_intro.png>]
+<img_S/5_1_intro.png, id=363, 620.3175pt x 199.74625pt>
+File: img_S/5_1_intro.png Graphic file (type png)
+
+<use img_S/5_1_intro.png>
+Package pdftex.def Info: img_S/5_1_intro.png used on input line 224.
+(pdftex.def)             Requested size: 310.15799pt x 99.87288pt.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 181.
+(hyperref)                removing `math shift' on input line 251.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 181.
+(hyperref)                removing `math shift' on input line 251.
 
-[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
-[23] [24] [25] [26]
-runsystem(makeindex Statistics.idx)...executed.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+[9 <./img_S/5_1_intro.png>] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+<img_S/8_intro.png, id=378, 751.80875pt x 263.98625pt>
+File: img_S/8_intro.png Graphic file (type png)
+ <use img_S/8_intro.png>
+Package pdftex.def Info: img_S/8_intro.png used on input line 313.
+(pdftex.def)             Requested size: 375.90344pt x 131.9928pt.
+
+Overfull \hbox (30.90344pt too wide) in paragraph at lines 313--314
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+[12 <./img_S/8_intro.png>] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[22] [23] [24] [25] [26] [27]
+runsystem(makeindex Statistics.idx)...executed safely (allowed).
 
  (./Statistics.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
  (./Statistics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
 Package rerunfilecheck Info: File `Statistics.out' has not changed.
-(rerunfilecheck)             Checksum: 76C9181D784952AEC081BCA7A2A9AF2F;3567.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+(rerunfilecheck)             Checksum: 8C1BA911D2796A7925A8DDBEF1D22F4D;3592.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
  ) 
 Here is how much of TeX's memory you used:
- 46917 strings out of 492995
- 1053277 string characters out of 6132703
- 1287467 words of memory out of 5000000
- 49563 multiletter control sequences out of 15000+600000
- 17678 words of font info for 88 fonts, out of 8000000 for 9000
+ 46960 strings out of 492995
+ 1054234 string characters out of 6132703
+ 1287468 words of memory out of 5000000
+ 49591 multiletter control sequences out of 15000+600000
+ 17780 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,96p,10396b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,11n,96p,10449b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1662,11 +1752,12 @@ al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Statistics.pdf (26 pages, 189702 bytes).
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Statistics.pdf (27 pages, 323851 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
- 82 named destinations out of 1000 (max. 500000)
- 25629 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 25664 words of extra memory for PDF output out of 29859 (max. 10000000)
 

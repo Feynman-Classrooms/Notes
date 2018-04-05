@@ -126,79 +126,202 @@ The list of formula:
 
 \subsection{Outlier}
 \begin{defi}
-
+	An outlier is an extreme value that lies outside the overall pattern of the data.
 \end{defi}
+An outlier is any value, which is
 \[
+	\text{greater than the upper quartile} + 1.5 \times \text{interquartile range}
 \]
-
+OR
 \[
+	\text{less than the lower quartile} + 1.5 \times \text{interquartile range}
 \]
-
-\begin{eg}
-
-\end{eg}
 
 \subsection{Box plot}
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/4_intro}
+\end{center}
 
 \subsection{Histogram}
 
 \begin{defi}[Frequency density]
-
+	\[
+		\text{frequency density}=\frac{\text{frequency}}{\text{class width}}
+	\]
 \end{defi}
+\begin{eg}
+	7
+\end{eg}
 
 \subsection{Skewness (Shape)}
+A distribution can be symmetrical , have positive skew or have negative skew\\
+
+
+symmetrical $Q_2-Q_1=Q_3-Q_2$ or mode$=$median$=$mean
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/3_5_intro1}
+\end{center}
+positive :$Q_2-Q_1<Q_3-Q_2$ or mode$<$median$<$mean
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/3_5_intro2}
+\end{center}
+negative :$Q_2-Q_1>Q_3-Q_2$ or mode$>$median$>$mean
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/3_5_intro3}
+\end{center}
+
+Or you can calculate:
+\[
+	\frac{3(\text{mean}-\text{median})}{\text{SD}}
+\]
+
 
 \subsection{What!?}
+\begin{eg}
+	example 10-12
+\end{eg}
 \section{Probability}
 \subsection{Classical Probability}
-
 \subsection{Venn diagram and their rules}
 \begin{defi}[Complementary Probability]
-
 \end{defi}
-
 \subsection{Conditional Probabilites}
 \subsubsection{Vann diagram}
-
 \subsubsection{Tree diagram}
-
 \subsection{Special Events of Probabilites}
 
 \begin{defi}[Mutually exclusive]
+	When events have no outcomes in common, they are mutually exclusive.
+	\begin{center}
+		\includegraphics[scale=0.5]{img_S/4_6_intro}
+	\end{center}
 
 \end{defi}
+There is no intersection of A and B, so $P(A\cap B)=0$\\
+
+We can use $P(A\cup B)=P(A)+P(B)-P(A\cap B)$
+
+result is
+\[
+	P(A\cup B)=P(A)+P(B)
+\]
 
 \begin{defi}[Independent events]
-
+	When one event has no effect on another, they are independent so $P(A|B)=P(A)$
 \end{defi}
+
+by $\frac{P(A\cap B)}{P(B)}=P(A)$ we have:
+
+\[
+	P(A\cap B)=P(B)\times P(A)
+\]
+
+
+
 \section{Correlation}
 \subsection{Correlation}
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/5_1_intro}
+\end{center}
 \subsection{Bivariate data}
-\begin{defi}[Co-Variance]
+Recall this formula :
+\[
+	\text{Variance}=\frac{\sum (x-\bar{x})^2}{n}
+\]
+In correlation we write:
+\[
+	S_{xx}=\sum (x-\bar{x})^2
+\]
 
+\[
+	S_{yy}=\sum (y-\bar{y})^2
+\]
+
+so
+\[
+	\text{Variance}=\frac{S_{xx}}{n}
+\]
+
+\begin{defi}[Co-Variance]
+	\[
+		S_{xy}=\frac{\sum(x-\bar{x})(x-\bar{y})}{n}
+	\]
 \end{defi}
 
 \subsection{Product moment Correlation coefficient $r$}
+\[
+	r=\frac{S_{xy}}{\sqrt{S_{xx}S_{yy}}}
+\]
+
+The value of $r$ varies between -1 and 1\\
+
+If $r=1$ , positive linear correlation\\
+
+If $r=-1$, nagative linear correlation\\
+
+If $r=0$, no linear correlation\\
+
+limitation:
 
 \subsection{Coding}
-
+does not effect $r$
 \section{Regression}
 \subsection{Linear}
+let $y=a+bx$ be a regression line \\
+where
+\[
+	b=\frac{S_{xy}}{S_{xx}} \mbox{~and~} a=\bar{y}-b\bar{x}
+\]
 \subsection{Coding}
+\subsection{Interpolation and Extrapolation}
 
 \section{Discrete random variables}
 \subsection{Probability distribution}
 
+\begin{defi}[Mean / Expected value]
+	\[
+		E(X)=\sum xp(x)
+	\]
+\end{defi}
+when we find $E(X^n)$:
+\[
+	E(X^n)=\sum x^np(x)
+\]
 \begin{defi}[Variable]
-
+	\[
+		Var(X)=E(X^2)-(E(X))^2
+	\]
 \end{defi}
-\begin{defi}[Expected value]
 
+The constant $a$ and $b$ affect on $E(X)$ and $Var(X)$
+\[
+	E(aX+b)=aE(x)+b
+\]
+
+\[
+	Var(aX+b)=a^2Var(X)
+\]
+\begin{defi}[Uniform distribution]
+	The distribution is uniform when all the probabilities is the same of all values.
 \end{defi}
 
-\subsection{Coding}
 
 \section{The normal distribution}
+$Z~ N(\mu,\sigma^2)$ represent the normal distribution.\\
+
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/8_intro}
+\end{center}
+
+The random variable $X$ can be written as $X~ N(\mu,\sigma^2)$\\
+
+you can transformed $X$ to $Z$ by this formula
+\[
+	z=\frac{X-\mu}{\sigma}
+\]
+\begin{eg}
+    Example 8-9
+\end{eg}
 
 \section{Binomial distribution}
 
