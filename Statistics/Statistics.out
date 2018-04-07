@@ -38,17 +38,33 @@
 \BOOKMARK [2][-]{subsection.7.1}{Probability distribution}{section.7}% 38
 \BOOKMARK [1][-]{section.8}{The normal distribution}{}% 39
 \BOOKMARK [1][-]{section.9}{Binomial distribution}{}% 40
-\BOOKMARK [1][-]{section.10}{Poisson distribution}{}% 41
-\BOOKMARK [1][-]{section.11}{Continuous random variables}{}% 42
-\BOOKMARK [1][-]{section.12}{Continuous uniform distribution}{}% 43
-\BOOKMARK [1][-]{section.13}{Normal approximation}{}% 44
-\BOOKMARK [1][-]{section.14}{Population and samples}{}% 45
-\BOOKMARK [1][-]{section.15}{Hypothesis testing}{}% 46
-\BOOKMARK [1][-]{section.16}{Combination of random variables}{}% 47
-\BOOKMARK [1][-]{section.17}{Sampling}{}% 48
-\BOOKMARK [1][-]{section.18}{Estimation , confidence intervals and tests}{}% 49
-\BOOKMARK [1][-]{section.19}{Goodness of fit and contingency tables}{}% 50
-\BOOKMARK [1][-]{section.20}{Regression and correlation}{}% 51
-\BOOKMARK [1][-]{section.21}{Quality of tests and estimators}{}% 52
-\BOOKMARK [1][-]{section.22}{One-sample procedures}{}% 53
-\BOOKMARK [1][-]{section.23}{Two-sample procedures}{}% 54
+\BOOKMARK [2][-]{subsection.9.1}{Basic Concept}{section.9}% 41
+\BOOKMARK [2][-]{subsection.9.2}{Mean and Variance}{section.9}% 42
+\BOOKMARK [1][-]{section.10}{Poisson distribution}{}% 43
+\BOOKMARK [2][-]{subsection.10.1}{Basic Concepts}{section.10}% 44
+\BOOKMARK [2][-]{subsection.10.2}{Mean and Variance}{section.10}% 45
+\BOOKMARK [2][-]{subsection.10.3}{Approximate a Binomial with Poisson}{section.10}% 46
+\BOOKMARK [1][-]{section.11}{Continuous random variables}{}% 47
+\BOOKMARK [2][-]{subsection.11.1}{Continous random variable}{section.11}% 48
+\BOOKMARK [2][-]{subsection.11.2}{Cumulative distribution function}{section.11}% 49
+\BOOKMARK [2][-]{subsection.11.3}{Mean and Variance}{section.11}% 50
+\BOOKMARK [2][-]{subsection.11.4}{Mode, median and quartiles}{section.11}% 51
+\BOOKMARK [1][-]{section.12}{Continuous uniform distribution}{}% 52
+\BOOKMARK [2][-]{subsection.12.1}{Continuous uniform distribution}{section.12}% 53
+\BOOKMARK [2][-]{subsection.12.2}{Mean and Variance}{section.12}% 54
+\BOOKMARK [2][-]{subsection.12.3}{Choosing the right model}{section.12}% 55
+\BOOKMARK [1][-]{section.13}{Normal approximation}{}% 56
+\BOOKMARK [2][-]{subsection.13.1}{Approximating binomial by normal}{section.13}% 57
+\BOOKMARK [2][-]{subsection.13.2}{Approximating Poisson by normal}{section.13}% 58
+\BOOKMARK [2][-]{subsection.13.3}{Choosing the appropriate approximation}{section.13}% 59
+\BOOKMARK [1][-]{section.14}{Population and samples}{}% 60
+\BOOKMARK [2][-]{subsection.14.1}{The Concept of population and samples}{section.14}% 61
+\BOOKMARK [1][-]{section.15}{Hypothesis testing}{}% 62
+\BOOKMARK [1][-]{section.16}{Combination of random variables}{}% 63
+\BOOKMARK [1][-]{section.17}{Sampling}{}% 64
+\BOOKMARK [1][-]{section.18}{Estimation , confidence intervals and tests}{}% 65
+\BOOKMARK [1][-]{section.19}{Goodness of fit and contingency tables}{}% 66
+\BOOKMARK [1][-]{section.20}{Regression and correlation}{}% 67
+\BOOKMARK [1][-]{section.21}{Quality of tests and estimators}{}% 68
+\BOOKMARK [1][-]{section.22}{One-sample procedures}{}% 69
+\BOOKMARK [1][-]{section.23}{Two-sample procedures}{}% 70

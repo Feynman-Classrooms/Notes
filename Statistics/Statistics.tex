@@ -307,33 +307,242 @@ The constant $a$ and $b$ affect on $E(X)$ and $Var(X)$
 
 
 \section{The normal distribution}
-$Z~ N(\mu,\sigma^2)$ represent the normal distribution.\\
+$Z\sim  N(\mu,\sigma^2)$ represent the normal distribution.\\
 
 \begin{center}
 	\includegraphics[scale=0.5]{img_S/8_intro}
 \end{center}
 
-The random variable $X$ can be written as $X~ N(\mu,\sigma^2)$\\
+The random variable $X$ can be written as $X\sim  N(\mu,\sigma^2)$\\
 
 you can transformed $X$ to $Z$ by this formula
 \[
 	z=\frac{X-\mu}{\sigma}
 \]
 \begin{eg}
-    Example 8-9
+	Example 8-9
 \end{eg}
 
 \section{Binomial distribution}
+\subsection{Basic Concept}
+$X\sim B(n,p)$ represent the Binomial distribution, then
+\[
+	P(X=x)=\begin{pmatrix}n\\x\end{pmatrix}p^x(1-p)^{n-x}
+\]
 
+\subsection{Mean and Variance}
+If $X\sim B(n,p)$ then
+\begin{align*}
+	E(X)   & =\mu=np           \\
+	Var(X) & =\sigma^2=np(1-p)
+\end{align*}
+
+\begin{eg}
+	example 9-14
+\end{eg}
 \section{Poisson distribution}
+\subsection{Basic Concepts}
+Recall the exponential function
+\[
+	e^x=1+\frac{x^1}{1!}+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots++\frac{x^r}{r!}+\cdots
+\]
+If you let $x=\lambda$ and remember that $\lambda^0=1$ this gives
+\[
+	e^{\lambda}=\lambda^0+\frac{\lambda^1}{1!}+\frac{\lambda^2}{2!}+\frac{\lambda^3}{3!}+\cdots++\frac{\lambda^r}{r!}+\cdots
+\]
+Dividing by $e^{\lambda}$ gives
+\[
+	\frac{e^{\lambda}}{e^{\lambda}}=\lambda^0+\frac{\lambda^1e^{-\lambda}}{1!}+\frac{\lambda^2e^{-\lambda}}{2!}+\frac{\lambda^3e^{-\lambda}}{3!}+\cdots+\frac{\lambda^re^{-\lambda}}{r!}+\cdots
+\]
+And the probability function is
+\[
+	P(X=x)=\frac{\lambda^xe^{-\lambda}}{x!}
+\]
+We say that $X$ has a Poisson distribution with parameter $\lambda$ abd write
+\[
+	X\sim Po(\lambda)
+\]
+\subsection{Mean and Variance}
+\[
+	Var(X)=E(X)=\mu=\sigma^2=\lambda
+\]
+\begin{lemma}
+	If mean and standard deviation square is same, we usually use Poisson distribution.
+\end{lemma}
+\begin{eg}
+	example 5-6
+\end{eg}
 
+\subsection{Approximate a Binomial with Poisson}
+If $X\sim B(n,p)$ and\\
+\begin{itemize}
+	\item $n$ is large
+	\item $p$ is small
+\end{itemize}
+then X can be approximated by
+\[
+	Po(np)
+\]
+\begin{eg}
+	example 7-8 9-10
+\end{eg}
 \section{Continuous random variables}
+\subsection{Continous random variable}
+The Continuous random variables with p.d.f $f(x)$ satisfied the following properties:
+\begin{enumerate}
+	\item $f(x)\geq 0$ since we cannot have negative probabilities
+	\item $P(a<X<b)= \text{shaded area} = \int_a^b f(x) \, \d x$
+	      \begin{center}
+		      \includegraphics[scale=0.5]{img_S/11_1_intro1}
+	      \end{center}
+	\item  $\int_{-\infty}^{\infty}f(x)\, \d x=1$ since the area under the curve $=1$.
+	      \begin{center}
+		      \includegraphics[scale=0.5]{img_S/11_1_intro2}
+	      \end{center}
+\end{enumerate}
+
+\begin{eg}
+	The random variable $X$ has probability density function
+	\[
+		f(x)=
+		\begin{cases}
+			kx(4-x) & 2\leq x \leq 4    \\
+			0       & \text{otherwise.}
+		\end{cases}
+	\]
+	Find the value of $k$ and sketch the p.d.f
+	\begin{proof}
+		\begin{align*}
+			\int_2^4 k(4x-x^2)\, \d x & = 1             \\
+			k[2x^2-\frac{x^3}{3}]_2^4 & =1              \\
+			k                         & =(\frac{3}{16})
+		\end{align*}
+		\begin{center}
+			\includegraphics[scale=0.5]{img_S/11_2}
+		\end{center}
+	\end{proof}
+\end{eg}
+
+\begin{eg}
+	The random variable $X$ has probability density function
+	\[
+		f(x)=
+		\begin{cases}
+			k      & 1<x<2             \\
+			k(x-1) & 2\leq x \leq 4    \\
+			0      & \text{otherwise.}
+		\end{cases}
+	\]
+	Find the value of $k$ and sketch the p.d.f
+	\begin{proof}
+		\begin{align*}
+			\int_1^2 k\, \d x+\int_2^4 k(x-1)\, \d x & =1           \\
+			k                                        & =\frac{1}{5}
+		\end{align*}
+		\begin{center}
+			\includegraphics[scale=0.5]{img_S/11_3}
+		\end{center}
+	\end{proof}
+
+\end{eg}
+\subsection{Cumulative distribution function}
+\[
+	F(x)=P(X\leq x)=\int_{-\infty}^x f(t) \, \d t
+\]
+where $F(x)=P(X\leq x)=1$
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/11_2_intro}
+\end{center}
+If $X$ us a Continous random variable with c.d.f. $F(x)$ and p.d.f $f(x)$
+\[
+	f(x)=\frac{\d }{\d t} F(x) \mbox{~and~} F(x)=\int_{-\infty}^x f(t) \, \d t
+\]
+
+\begin{eg}
+	example 5-6
+\end{eg}
+\subsection{Mean and Variance}
+If $X$ is a Continuous random variable with p.d.f $f(x)$
+\[
+    \mu=E(X)=\int_{-\infty}^{\infty}x f(x) \, \d x
+\]
+\[
+    \sigma^2=E(X^2)-\mu^2=\int_{-\infty}^{\infty}x^2 f(x) \, \d x-\mu^2
+\]
+\begin{remark}
+    The range is the range of that function instead of negative infinity to infinity.
+\end{remark}
+\subsection{Mode, median and quartiles}
+The median $m$ or $Q_2$ satisfies $F(m)=F(Q_2)=0.5$\\
+The lower quartile $Q_1$ satisfies $F(Q_1)=0.25$ \\ 
+The lower quartile $Q_1$ satisfies $F(Q_3)=0.75$ \\
+
+The mode is the $x$ value at the highest point of the p.d.f $f(x)$
 
 \section{Continuous uniform distribution}
+\subsection{Continuous uniform distribution}
+
+\subsection{Mean and Variance}
+
+\begin{eg}
+    example 4-7
+
+\end{eg}
+
+\subsection{Choosing the right model}
+
+\begin{eg}
+    example 8-10
+\end{eg}
 
 \section{Normal approximation}
+\subsection{Approximating binomial by normal}
+If $X\sim B(n,p)$ and
+\begin{itemize}
+    \item $n$ is large
+    \item $p$ is close to $0.5$
+\end{itemize}
+Then $X$ can be approximated by
+\[
+    Y\sim N(np,np(1-p))
+\]
+
+\begin{eg}
+    $X\sim B(120,0.25)$ approximated to $Y\sim N(30,(\sqrt{22.5})^2)$
+\end{eg}
+
+\begin{eg}
+ example 4
+\end{eg}
+
+\subsection{Approximating Poisson by normal}
+If $\lambda$ is large
+\[
+    X\sim Po(\lambda) \text{to} Y\sim N(\lambda,(\sqrt{\lambda})^2)
+\]
+
+\begin{eg}
+    $X\sim Po(25)$ transformed to $Y\sim N(25,5^2)$
+\end{eg}
+
+\begin{eg}
+ example 6
+\end{eg}
+
+\subsection{Choosing the appropriate approximation}
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/13_3_intro}
+\end{center}
+\begin{eg}
+    example 7
+\end{eg}
 
 \section{Population and samples}
+
+\subsection{The Concept of population and samples}
+\begin{eg}
+    example 5 6
+\end{eg}
 
 \section{Hypothesis testing}
 
