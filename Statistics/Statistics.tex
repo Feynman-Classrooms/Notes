@@ -464,69 +464,71 @@ If $X$ us a Continous random variable with c.d.f. $F(x)$ and p.d.f $f(x)$
 \subsection{Mean and Variance}
 If $X$ is a Continuous random variable with p.d.f $f(x)$
 \[
-    \mu=E(X)=\int_{-\infty}^{\infty}x f(x) \, \d x
+	\mu=E(X)=\int_{-\infty}^{\infty}x f(x) \, \d x
 \]
 \[
-    \sigma^2=E(X^2)-\mu^2=\int_{-\infty}^{\infty}x^2 f(x) \, \d x-\mu^2
+	\sigma^2=E(X^2)-\mu^2=\int_{-\infty}^{\infty}x^2 f(x) \, \d x-\mu^2
 \]
 \begin{remark}
-    The range is the range of that function instead of negative infinity to infinity.
+	The range is the range of that function instead of negative infinity to infinity.
 \end{remark}
 \subsection{Mode, median and quartiles}
 The median $m$ or $Q_2$ satisfies $F(m)=F(Q_2)=0.5$\\
-The lower quartile $Q_1$ satisfies $F(Q_1)=0.25$ \\ 
+The lower quartile $Q_1$ satisfies $F(Q_1)=0.25$ \\
 The lower quartile $Q_1$ satisfies $F(Q_3)=0.75$ \\
 
 The mode is the $x$ value at the highest point of the p.d.f $f(x)$
 
 \section{Continuous uniform distribution}
 \subsection{Continuous uniform distribution}
-
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/12_intro}
+\end{center}
 \subsection{Mean and Variance}
 
 \begin{eg}
-    example 4-7
+	example 4-7
 
 \end{eg}
 
 \subsection{Choosing the right model}
 
 \begin{eg}
-    example 8-10
+	example 8-10
 \end{eg}
 
 \section{Normal approximation}
 \subsection{Approximating binomial by normal}
 If $X\sim B(n,p)$ and
 \begin{itemize}
-    \item $n$ is large
-    \item $p$ is close to $0.5$
+	\item $n$ is large
+	\item $p$ is close to $0.5$
 \end{itemize}
 Then $X$ can be approximated by
 \[
-    Y\sim N(np,np(1-p))
+	Y\sim N(np,np(1-p))
 \]
 
 \begin{eg}
-    $X\sim B(120,0.25)$ approximated to $Y\sim N(30,(\sqrt{22.5})^2)$
+	$X\sim B(120,0.25)$ approximated to $Y\sim N(30,(\sqrt{22.5})^2)$
 \end{eg}
 
 \begin{eg}
- example 4
+	example 4
 \end{eg}
 
 \subsection{Approximating Poisson by normal}
 If $\lambda$ is large
 \[
-    X\sim Po(\lambda) \text{to} Y\sim N(\lambda,(\sqrt{\lambda})^2)
+	X\sim Po(\lambda) \text{to} Y\sim N(\lambda,(\sqrt{\lambda})^2)
 \]
 
 \begin{eg}
-    $X\sim Po(25)$ transformed to $Y\sim N(25,5^2)$
+	$X\sim Po(25)$ transformed to $Y\sim N(25,5^2)$
 \end{eg}
 
 \begin{eg}
- example 6
+	example 6
 \end{eg}
 
 \subsection{Choosing the appropriate approximation}
@@ -534,17 +536,81 @@ If $\lambda$ is large
 	\includegraphics[scale=0.5]{img_S/13_3_intro}
 \end{center}
 \begin{eg}
-    example 7
+	example 7
 \end{eg}
 
 \section{Population and samples}
 
 \subsection{The Concept of population and samples}
+List of the possible samples and find their probabilities and distribution.
 \begin{eg}
-    example 5 6
+	example 5 6
 \end{eg}
 
 \section{Hypothesis testing}
+\subsection{Concept of hypothesis testing}
+\begin{defi}[Null hypothesis $H_0$]
+	The hypothesis which is assumed to be correct unless shown otherwise.
+\end{defi}
+\begin{defi}[Alternarive hypothesis $H_1$]
+	This is the conclusion that should be made if $H_0$ is rejected
+\end{defi}
+
+\begin{defi}[Critical region]
+	The range of values which would lead you to reject the null hypothesis, $H_0$
+\end{defi}
+
+\begin{defi}[Significance level]
+	The actual significance level is the probability of rejecting $H_0$ when it is in fact true.
+\end{defi}
+From your observed result (test statistic) you decide whether to reject or not to reject the null
+hypothesis $H_0$
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/15_intro}
+\end{center}
+
+The test statistic is significantat 5\%, or that we reject $H_0$. Thus $H_0$could actually be true but we still reject it.
+Thus, the significance level, 5\%, is  \\
+the probability that we reject $H_0$ when it is in fact true, or the probability of incorrectly rejecting $H_0$.\\
+When we reject the null hypothesis, $H_0$, we use the alternative hypothesis to write the conclusion.\\
+
+
+The Poisson and Binomial distributions are
+discrete, and we look at probability histograms.
+
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/15_intro2}
+\end{center}
+
+In the diagram, the critical region (shown by the
+shaded areas) is $X\leq 12$ or $X\geq 20$.\\
+
+We include the whole bar around $X=12$ and around $X=20$\\
+
+So $P(X\leq 12)$ is the area to the left of 12.5,\\
+and $P(X\geq 20)$ is the area to the right of 19.5,\\
+
+If $P(X\leq 12)=0.0234$ and $P(X\geq 20)=0.0217$, then \\
+the actual signifaicance level is $0.0234+0.0217=0.0451=4.51\%$ \\
+Thus the probability of incorrectly rejecting $H_0$ is 0.0451.
+\subsection{One- and two-tailed tests}
+The One-tail test is
+\begin{align*}
+	H_0: & a=b                 \\
+	H_1: & a>b \mbox{~or~} a<b
+\end{align*}
+The Two-tail test is
+\begin{align*}
+	H_0: & a=b     \\
+	H_1: & a\neq b
+\end{align*}
+\begin{eg}
+	3
+\end{eg}
+
+\begin{eg}
+	4-13
+\end{eg}
 
 \section{Combination of random variables}
 

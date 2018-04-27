@@ -36,15 +36,130 @@
 \section{Statics of rigid bodies 1}
 
 \section{Further kinematics}
-
+\subsection{Forces which vary with speed}
+\begin{prop}
+	\[
+		\mathbf{a}=\mathbf{v}\frac{\d \mathbf{v}}{\d \mathbf{x}}
+	\]
+	\begin{proof}
+		\[
+			\mathbf{a}=\frac{\d \mathbf{x}}{\d \mathbf{t}}\times \frac{\d \mathbf{v}}{\d \mathbf{x}}=\mathbf{v}\frac{\d \mathbf{v}}{\d \mathbf{x}}
+		\]
+	\end{proof}
+\end{prop}
 \section{Elastic strings and springs}
+\subsection{Hooke's Law}
+\begin{law}[Hooke's Law]
+	There are two cases for using Hooke's Law
+	\begin{enumerate}
+		\item Elastic strings: The tension $T$ in an elastic string is
+		      \[
+			      T=\frac{\lambda x}{l}
+		      \]
+		      where \\
+		      $l$ is the natural (unstretched) length of the string,\\
+		      $x$ is the extension and\\
+		      $\lambda$ is the modulus of elasticity
+		      \begin{center}
+			      \includegraphics[scale=0.5]{img_M/12_intro1}
+		      \end{center}
+		\item Elastic springs: The tension, or thrust, $T$ is an elastic spring is
+		      \[
+			      T=\frac{\lambda x}{l}
+		      \]
+		      where \\
+		      $l$ is the natural (unstretched) length of the string,\\
+		      $x$ is the extension or compression and\\
+		      $\lambda$ is the modulus of elasticity
+		      \begin{center}
+			      \includegraphics[scale=0.5]{img_M/12_intro2}
+		      \end{center}
+	\end{enumerate}
+\end{law}
+
+\subsection{Energy stored in an elastic string or spring}
+Like kinematics,If there is force $F$ and displacement traveled $\delta s$, the Work done is $\delta W=F\delta s$. Similarly, If the tension force is $T$ and string/spring extended/stretched, then
+\[
+	\delta W \approx T \delta x
+\]
+Total work done in exrending from $x=0$ to $x=X$ is approximately
+\[
+	\sum^{X}_0 T \delta x
+\]
+
+and , as $\delta x \rightarrow 0 $, the total work done:
+
+\[
+	W=\int^X_0 T \d x= \int^X_0 \frac{\lambda x}{l}\d x=\frac{\lambda x^2}{2l}
+\]
+The expression of Total work done is also called the Elastic Potential Energy
 
 \section{Further dynamics}
+\subsection{Impulse of a variable force}
+\[
+	\delta I \approx F(t) \delta t
+\]
+The total impulse from time $t_1$ to $t_2$ is 
+\[
+    I \approx \sum_{t_1}^{t_2} F(t) \delta t
+\]
+and as $\delta t \rightarrow 0$, the total impulse is 
+\[
+    I=\int^{t_2}_{t_1} F(t) \d t
+\]
+Also, as $F(t)=ma=m\frac{\d v}{\d t}$
+\begin{align*}
+    \int_{t_1}^{t_2} F(t) \d t &=\int^{V}_{U} m \d v =mV-mU
+\end{align*}
+\subsection{Work done by a variable force}
+\[
+    \delta W \approx G(x)\delta x
+\]
+and the total work done in moving from a displacement $x_1$ to $x_2$ is
+\[
+    W\approx\sum_{x_1}^{x_2} G(x)\delta x
+    \]
+and as $\delta x \rightarrow 0$ , the total work done is
+\[
+    W=\int_{x_1}^{x_2} G(x) \d x
+\]
+Also $G(x)=ma=m\frac{\d v}{\d x}=m\frac{\d x}{\d t}\times \frac{\d v}{\d x}=mv\frac{\d v}{\d x}$
+\[
+    \int_{x_1}^{x_2} G(x) \d x =\int_U^V mv \d v =\frac{1}{2}mV^2-\frac{1}{2}mU^2
+\]
+
+\subsection{Newton's Law of Gravitation}
+\begin{law}
+    The force of attraction between two bodies of masses  
+$M_1$
+  and  
+$M_2$
+  is directly proportional to the product of their masses and inversely proportional to the square of the distance, 
+$d$ , between them:
+\[
+    F=\frac{GM_1M_2}{d^2}
+    \]
+where $G$ is a constant known as the constant of Gravitation
+\end{law}
+\subsection{Finding $k$ in $F=\frac{k}{x^2}$}
+\[
+    F=ma=\frac{k}{d^2}
+\]
+
+\subsection{Simple harmonic motion S.H.M.}
 
 \section{Motion in a circle}
+\subsection{Angular velocity}
 
+\subsection{Acceleration}
+
+Types of problems
+
+\subsection{Motion in a vertical circle}
+
+Types of problems
 \section{Statics of rigid bodies 2}
-
+\subsection{Centre of mass}
 \section{Relative motion}
 
 \section{Elastic collisions in two dimensions}

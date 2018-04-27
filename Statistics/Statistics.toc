@@ -60,11 +60,13 @@
 \contentsline {section}{\numberline {14}Population and samples}{20}{section.14}
 \contentsline {subsection}{\numberline {14.1}The Concept of population and samples}{20}{subsection.14.1}
 \contentsline {section}{\numberline {15}Hypothesis testing}{21}{section.15}
-\contentsline {section}{\numberline {16}Combination of random variables}{22}{section.16}
-\contentsline {section}{\numberline {17}Sampling}{23}{section.17}
-\contentsline {section}{\numberline {18}Estimation , confidence intervals and tests}{24}{section.18}
-\contentsline {section}{\numberline {19}Goodness of fit and contingency tables}{25}{section.19}
-\contentsline {section}{\numberline {20}Regression and correlation}{26}{section.20}
-\contentsline {section}{\numberline {21}Quality of tests and estimators}{27}{section.21}
-\contentsline {section}{\numberline {22}One-sample procedures}{28}{section.22}
-\contentsline {section}{\numberline {23}Two-sample procedures}{29}{section.23}
+\contentsline {subsection}{\numberline {15.1}Concept of hypothesis testing}{21}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}One- and two-tailed tests}{22}{subsection.15.2}
+\contentsline {section}{\numberline {16}Combination of random variables}{23}{section.16}
+\contentsline {section}{\numberline {17}Sampling}{24}{section.17}
+\contentsline {section}{\numberline {18}Estimation , confidence intervals and tests}{25}{section.18}
+\contentsline {section}{\numberline {19}Goodness of fit and contingency tables}{26}{section.19}
+\contentsline {section}{\numberline {20}Regression and correlation}{27}{section.20}
+\contentsline {section}{\numberline {21}Quality of tests and estimators}{28}{section.21}
+\contentsline {section}{\numberline {22}One-sample procedures}{29}{section.22}
+\contentsline {section}{\numberline {23}Two-sample procedures}{30}{section.23}
