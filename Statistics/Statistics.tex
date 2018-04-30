@@ -613,10 +613,70 @@ The Two-tail test is
 \end{eg}
 
 \section{Combination of random variables}
-
+If $X_1$ and $X_2$ are independent normal random variables
+\[
+	X_1 \sim \N(\mu_1,\sigma_1^2) \mbox{~and~} X_2 \sim \N(\mu_2,\sigma_2^2)
+\]
+then $X_1+X_2$ and $X_1-X_2$ are also normal random variables
+\[
+	X_1+X_2\sim \N(\mu_1+\mu_2,\sigma_1^2+\sigma_2^2) \mbox{~and~} X_1-X_2\sim \N(\mu_1-\mu_2,\sigma_1^2+\sigma_2^2)
+\]
 \section{Sampling}
 
 \section{Estimation , confidence intervals and tests}
+\subsection{Estimation}
+\begin{defi}[Biased and unbiased estimator]
+	If $X$  (usually found from a sample) is used to estimate the value of a population parameter,
+	$t$, then $X$ is an unbiased estimator of $t$ if $E[X] =$ the true value of the parameter $t$. \\
+
+	If an estimator, $X$, is biased, then the bias is the difference between $E[X]$ and the true value of the parameter $t$.
+\end{defi}
+
+\begin{defi}[Unbiased estimators of $\mu$ and $\sigma^2$]
+
+\end{defi}
+
+
+\subsection{Confidence intervals and significance tests}
+\begin{defi}[Sampling distribution of the mean]
+	\[
+		\N(\mu,\frac{\sigma^2}{n})
+	\]
+\end{defi}
+
+\begin{thm}[Central limit theorem]
+	If $\{X_1,X_2,\cdots,X_n\}$ is a random sample of size $n$ drawn any population with mean $\mu$ and variance $\sigma^2$ then the population of sample means.
+	\begin{enumerate}
+	\item has expected mean $\mu$
+	\item has expected variance $\frac{\sigma^2}{n}$
+	\item forms a normal distribution if $n$ is 'large enough' i.e. $\bar{X}\sim \N(\mu,\frac{\sigma^2}{n})$
+	\end{enumerate}
+	The standard error of the sample mean is $\frac{\sigma}{\sqrt{n}}$
+\end{thm}
+
+\begin{eg}
+\end{eg}
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/18_eg1_1}
+\end{center}
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/18_eg1_2}
+\end{center}
+
+\begin{eg}
+\end{eg}
+
+\begin{center}
+	\includegraphics[scale=0.5]{img_S/18_eg2}
+\end{center}
+
+Fortunately the formula for testing the difference between sample means 
+\[
+	Z=\frac{\bar{X}-\bar{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x}+{\frac{\sigma_y^2}{n_y}}}}
+\]
+
+\subsection{Combination of sampling distribution}
+Same
 
 \section{Goodness of fit and contingency tables}
 

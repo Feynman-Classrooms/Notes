@@ -65,8 +65,11 @@
 \contentsline {section}{\numberline {16}Combination of random variables}{23}{section.16}
 \contentsline {section}{\numberline {17}Sampling}{24}{section.17}
 \contentsline {section}{\numberline {18}Estimation , confidence intervals and tests}{25}{section.18}
-\contentsline {section}{\numberline {19}Goodness of fit and contingency tables}{26}{section.19}
-\contentsline {section}{\numberline {20}Regression and correlation}{27}{section.20}
-\contentsline {section}{\numberline {21}Quality of tests and estimators}{28}{section.21}
-\contentsline {section}{\numberline {22}One-sample procedures}{29}{section.22}
-\contentsline {section}{\numberline {23}Two-sample procedures}{30}{section.23}
+\contentsline {subsection}{\numberline {18.1}Estimation}{25}{subsection.18.1}
+\contentsline {subsection}{\numberline {18.2}Confidence intervals and significance tests}{25}{subsection.18.2}
+\contentsline {subsection}{\numberline {18.3}Combination of sampling distribution}{28}{subsection.18.3}
+\contentsline {section}{\numberline {19}Goodness of fit and contingency tables}{29}{section.19}
+\contentsline {section}{\numberline {20}Regression and correlation}{30}{section.20}
+\contentsline {section}{\numberline {21}Quality of tests and estimators}{31}{section.21}
+\contentsline {section}{\numberline {22}One-sample procedures}{32}{section.22}
+\contentsline {section}{\numberline {23}Two-sample procedures}{33}{section.23}

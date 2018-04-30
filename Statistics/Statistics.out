@@ -65,8 +65,11 @@
 \BOOKMARK [1][-]{section.16}{Combination of random variables}{}% 65
 \BOOKMARK [1][-]{section.17}{Sampling}{}% 66
 \BOOKMARK [1][-]{section.18}{Estimation , confidence intervals and tests}{}% 67
-\BOOKMARK [1][-]{section.19}{Goodness of fit and contingency tables}{}% 68
-\BOOKMARK [1][-]{section.20}{Regression and correlation}{}% 69
-\BOOKMARK [1][-]{section.21}{Quality of tests and estimators}{}% 70
-\BOOKMARK [1][-]{section.22}{One-sample procedures}{}% 71
-\BOOKMARK [1][-]{section.23}{Two-sample procedures}{}% 72
+\BOOKMARK [2][-]{subsection.18.1}{Estimation}{section.18}% 68
+\BOOKMARK [2][-]{subsection.18.2}{Confidence intervals and significance tests}{section.18}% 69
+\BOOKMARK [2][-]{subsection.18.3}{Combination of sampling distribution}{section.18}% 70
+\BOOKMARK [1][-]{section.19}{Goodness of fit and contingency tables}{}% 71
+\BOOKMARK [1][-]{section.20}{Regression and correlation}{}% 72
+\BOOKMARK [1][-]{section.21}{Quality of tests and estimators}{}% 73
+\BOOKMARK [1][-]{section.22}{One-sample procedures}{}% 74
+\BOOKMARK [1][-]{section.23}{Two-sample procedures}{}% 75

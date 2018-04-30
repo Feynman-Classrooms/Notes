@@ -18,19 +18,30 @@
 \contentsline {subsection}{\numberline {13.2}Work done by a variable force}{16}{subsection.13.2}
 \contentsline {subsection}{\numberline {13.3}Newton's Law of Gravitation}{16}{subsection.13.3}
 \contentsline {subsection}{\numberline {13.4}Finding $k$ in $F=\frac {k}{x^2}$}{16}{subsection.13.4}
-\contentsline {subsection}{\numberline {13.5}Simple harmonic motion S.H.M.}{16}{subsection.13.5}
-\contentsline {section}{\numberline {14}Motion in a circle}{17}{section.14}
-\contentsline {subsection}{\numberline {14.1}Angular velocity}{17}{subsection.14.1}
-\contentsline {subsection}{\numberline {14.2}Acceleration}{17}{subsection.14.2}
-\contentsline {subsection}{\numberline {14.3}Motion in a vertical circle}{17}{subsection.14.3}
-\contentsline {section}{\numberline {15}Statics of rigid bodies 2}{18}{section.15}
-\contentsline {subsection}{\numberline {15.1}Centre of mass}{18}{subsection.15.1}
-\contentsline {section}{\numberline {16}Relative motion}{19}{section.16}
-\contentsline {section}{\numberline {17}Elastic collisions in two dimensions}{20}{section.17}
-\contentsline {section}{\numberline {18}Resisted motion of a particle moving in a straight line}{21}{section.18}
-\contentsline {section}{\numberline {19}Damped and forced harmonic motion}{22}{section.19}
-\contentsline {section}{\numberline {20}Stability}{23}{section.20}
-\contentsline {section}{\numberline {21}Applications of vectors in mechanics}{24}{section.21}
-\contentsline {section}{\numberline {22}Variable mass}{25}{section.22}
-\contentsline {section}{\numberline {23}Moments of inertia of a rigid body}{26}{section.23}
-\contentsline {section}{\numberline {24}Rotation of a rigid body about a fixed smooth axis}{27}{section.24}
+\contentsline {subsection}{\numberline {13.5}Simple harmonic motion S.H.M.}{17}{subsection.13.5}
+\contentsline {section}{\numberline {14}Motion in a circle}{19}{section.14}
+\contentsline {subsection}{\numberline {14.1}Angular velocity}{19}{subsection.14.1}
+\contentsline {subsection}{\numberline {14.2}Acceleration}{19}{subsection.14.2}
+\contentsline {subsection}{\numberline {14.3}Motion in a vertical circle}{21}{subsection.14.3}
+\contentsline {section}{\numberline {15}Statics of rigid bodies 2}{24}{section.15}
+\contentsline {subsection}{\numberline {15.1}Centre of mass}{24}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}Centre of mass of geometric shapes}{24}{subsection.15.2}
+\contentsline {subsubsection}{\numberline {15.2.1}Sector}{24}{subsubsection.15.2.1}
+\contentsline {subsubsection}{\numberline {15.2.2}Circular arc}{25}{subsubsection.15.2.2}
+\contentsline {subsubsection}{\numberline {15.2.3}Others}{26}{subsubsection.15.2.3}
+\contentsline {subsubsection}{\numberline {15.2.4}Solid of revolution}{26}{subsubsection.15.2.4}
+\contentsline {subsubsection}{\numberline {15.2.5}Hemispherical shell}{27}{subsubsection.15.2.5}
+\contentsline {subsubsection}{\numberline {15.2.6}conical}{29}{subsubsection.15.2.6}
+\contentsline {subsubsection}{\numberline {15.2.7}Square based pyramid}{30}{subsubsection.15.2.7}
+\contentsline {subsubsection}{\numberline {15.2.8}The standard results}{30}{subsubsection.15.2.8}
+\contentsline {subsubsection}{\numberline {15.2.9}Tilting and hanging freely}{31}{subsubsection.15.2.9}
+\contentsline {subsubsection}{\numberline {15.2.10}Hemisphere in equilibrium on a slope}{33}{subsubsection.15.2.10}
+\contentsline {section}{\numberline {16}Relative motion}{34}{section.16}
+\contentsline {section}{\numberline {17}Elastic collisions in two dimensions}{35}{section.17}
+\contentsline {section}{\numberline {18}Resisted motion of a particle moving in a straight line}{36}{section.18}
+\contentsline {section}{\numberline {19}Damped and forced harmonic motion}{37}{section.19}
+\contentsline {section}{\numberline {20}Stability}{38}{section.20}
+\contentsline {section}{\numberline {21}Applications of vectors in mechanics}{39}{section.21}
+\contentsline {section}{\numberline {22}Variable mass}{40}{section.22}
+\contentsline {section}{\numberline {23}Moments of inertia of a rigid body}{41}{section.23}
+\contentsline {section}{\numberline {24}Rotation of a rigid body about a fixed smooth axis}{42}{section.24}
