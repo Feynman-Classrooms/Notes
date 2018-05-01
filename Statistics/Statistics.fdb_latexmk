@@ -1,11 +1,11 @@
 # Fdb version 3
-["makeindex Statistics.idx"] 0 "Statistics.idx" "Statistics.ind" "Statistics" 1525100195
-  "Statistics.idx" 1525100191 0 d41d8cd98f00b204e9800998ecf8427e ""
+["makeindex Statistics.idx"] 1525163102 "Statistics.idx" "Statistics.ind" "Statistics" 1525163109
+  "Statistics.idx" 1525163105 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Statistics.ilg"
   "Statistics.ind"
-["pdflatex"] 1525100189 "/Users/lelouch9625/Documents/GitHub/Notes/Statistics/Statistics.tex" "Statistics.pdf" "Statistics" 1525100195
-  "/Users/lelouch9625/Documents/GitHub/Notes/Statistics/Statistics.tex" 1525100189 17175 98a5ffab29c3a5f1e299e18121e48d6f ""
+["pdflatex"] 1525163109 "/Users/lelouch9625/Documents/GitHub/Notes/Statistics/Statistics.tex" "Statistics.pdf" "Statistics" 1525163109
+  "/Users/lelouch9625/Documents/GitHub/Notes/Statistics/Statistics.tex" 1525163092 17159 6032f72627c19144e65bf1caf140e33b ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -323,11 +323,11 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1513317499 4129593 24e0446e3a9f6ec650022ffeac36706e ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "Statistics.aux" 1525100195 8739 3606896d295f1646a57dc0bf2a0d70d3 ""
-  "Statistics.ind" 1525100195 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Statistics.idx"
-  "Statistics.out" 1525100195 5376 ded1e050e659a2c645ebce454a2f8cf2 ""
-  "Statistics.tex" 1525100189 17175 98a5ffab29c3a5f1e299e18121e48d6f ""
-  "Statistics.toc" 1525100195 6691 21508b78a95507e69be575a9fb8dda8e ""
+  "Statistics.aux" 1525163108 8655 d4f7e96f74e9c4d8713c1463015dd1cd ""
+  "Statistics.ind" 1525163108 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Statistics.idx"
+  "Statistics.out" 1525163108 5331 9c80b355db1fa849336619a306232de8 ""
+  "Statistics.tex" 1525163092 17159 6032f72627c19144e65bf1caf140e33b ""
+  "Statistics.toc" 1525163108 6621 94daa19627b5eb73b9fee6f9b5264ce3 ""
   "header.tex" 1516635795 15117 c7ab07a5f6001674018851848da4b56d ""
   "img_S/11_1_intro1.png" 1523013565 15438 fc1ab69a2011b144a252e4424ec5a1f6 ""
   "img_S/11_1_intro2.png" 1523013571 15386 0c5349496605d2a716028a3a212b07af ""
@@ -359,9 +359,9 @@
   "img_S/5_1_intro.png" 1522952215 17357 2f519c5708db5d104125a46a56e9bf68 ""
   "img_S/8_intro.png" 1522954491 37421 bc68e4d39903811d2e2e1f1d130cc3dd ""
   (generated)
-  "Statistics.idx"
-  "Statistics.log"
   "Statistics.pdf"
   "Statistics.toc"
   "Statistics.out"
+  "Statistics.log"
+  "Statistics.idx"
   "Statistics.aux"
