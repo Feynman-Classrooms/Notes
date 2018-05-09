@@ -36,33 +36,589 @@
 \section{Statics of rigid bodies 1}
 
 \section{Further kinematics}
-
+\subsection{Forces which vary with speed}
+\begin{prop}
+	\[
+		\mathbf{a}=\mathbf{v}\frac{\d \mathbf{v}}{\d \mathbf{x}}
+	\]
+	\begin{proof}
+		\[
+			\mathbf{a}=\frac{\d \mathbf{x}}{\d \mathbf{t}}\times \frac{\d \mathbf{v}}{\d \mathbf{x}}=\mathbf{v}\frac{\d \mathbf{v}}{\d \mathbf{x}}
+		\]
+	\end{proof}
+\end{prop}
 \section{Elastic strings and springs}
+\subsection{Hooke's Law}
+\begin{law}[Hooke's Law]
+	There are two cases for using Hooke's Law
+	\begin{enumerate}
+		\item Elastic strings: The tension $T$ in an elastic string is
+		      \[
+			      T=\frac{\lambda x}{l}
+		      \]
+		      where \\
+		      $l$ is the natural (unstretched) length of the string,\\
+		      $x$ is the extension and\\
+		      $\lambda$ is the modulus of elasticity
+		      \begin{center}
+			      \includegraphics[scale=0.5]{img_M/12_intro1}
+		      \end{center}
+		\item Elastic springs: The tension, or thrust, $T$ is an elastic spring is
+		      \[
+			      T=\frac{\lambda x}{l}
+		      \]
+		      where \\
+		      $l$ is the natural (unstretched) length of the string,\\
+		      $x$ is the extension or compression and\\
+		      $\lambda$ is the modulus of elasticity
+		      \begin{center}
+			      \includegraphics[scale=0.5]{img_M/12_intro2}
+		      \end{center}
+	\end{enumerate}
+\end{law}
+
+\subsection{Energy stored in an elastic string or spring}
+Like kinematics,If there is force $F$ and displacement traveled $\delta s$, the Work done is $\delta W=F\delta s$. Similarly, If the tension force is $T$ and string/spring extended/stretched, then
+\[
+	\delta W \approx T \delta x
+\]
+Total work done in exrending from $x=0$ to $x=X$ is approximately
+\[
+	\sum^{X}_0 T \delta x
+\]
+
+and , as $\delta x \rightarrow 0 $, the total work done:
+
+\[
+	W=\int^X_0 T \d x= \int^X_0 \frac{\lambda x}{l}\d x=\frac{\lambda x^2}{2l}
+\]
+The expression of Total work done is also called the Elastic Potential Energy
 
 \section{Further dynamics}
+\subsection{Impulse of a variable force}
+\[
+	\delta I \approx F(t) \delta t
+\]
+The total impulse from time $t_1$ to $t_2$ is
+\[
+	I \approx \sum_{t_1}^{t_2} F(t) \delta t
+\]
+and as $\delta t \rightarrow 0$, the total impulse is
+\[
+	I=\int^{t_2}_{t_1} F(t) \d t
+\]
+Also, as $F(t)=ma=m\frac{\d v}{\d t}$
+\begin{align*}
+	\int_{t_1}^{t_2} F(t) \d t & =\int^{V}_{U} m \d v =mV-mU
+\end{align*}
+\subsection{Work done by a variable force}
+\[
+	\delta W \approx G(x)\delta x
+\]
+and the total work done in moving from a displacement $x_1$ to $x_2$ is
+\[
+	W\approx\sum_{x_1}^{x_2} G(x)\delta x
+\]
+and as $\delta x \rightarrow 0$ , the total work done is
+\[
+	W=\int_{x_1}^{x_2} G(x) \d x
+\]
+Also $G(x)=ma=m\frac{\d v}{\d x}=m\frac{\d x}{\d t}\times \frac{\d v}{\d x}=mv\frac{\d v}{\d x}$
+\[
+	\int_{x_1}^{x_2} G(x) \d x =\int_U^V mv \d v =\frac{1}{2}mV^2-\frac{1}{2}mU^2
+\]
 
+\subsection{Newton's Law of Gravitation}
+\begin{law}
+	The force of attraction between two bodies of masses
+	$M_1$
+	and
+	$M_2$
+	is directly proportional to the product of their masses and inversely proportional to the square of the distance,
+	$d$ , between them:
+	\[
+		F=\frac{GM_1M_2}{d^2}
+	\]
+	where $G$ is a constant known as the constant of Gravitation
+\end{law}
+\subsection{Finding $k$ in $F=\frac{k}{x^2}$}
+\[
+	F=ma=\frac{k}{d^2}
+\]
+
+\subsection{Simple harmonic motion S.H.M.}
+
+\begin{defi}[S.H.M. equation]
+	If a particle
+	,
+	$P$
+	, moves in a straight line so that
+	its acceleration is proportional to its distance
+	from a fixed point
+	$O$
+	, and directed towards
+	$O$
+	,
+	then
+	\[
+		\ddot{x}=-\omega^2x
+	\]
+	and the particle will oscillate between two points,
+	$A$
+	and
+	$B$
+	, with simple harmonic motion.\\
+
+	The amplitude of the oscillation is
+	$OA = OB= a$.\\
+
+	Notice that $\ddot{x}$
+	is marked
+	in the direction of
+	$x$
+	increasing
+	$n$ the diagram
+	, and, since
+	$\omega^2$
+	is
+	positive,
+	$\ddot{x}$
+	is negative
+	, so the acceleration acts towards
+	$O$.
+	\begin{center}
+		\includegraphics[scale=0.5]{img_M/12_intro4}
+	\end{center}
+\end{defi}
+
+\begin{prop}[Solving equation]
+	A.E. is
+	\[
+		m^2=-\omega^2 \rightarrow m=i\omega
+	\]
+	G.S. is
+	\[
+		x=\lambda \sin \omega t+\mu \cos \omega t
+	\]
+	If $x$ starts from $O$, $x=O$ when $t=0$, \\
+	then
+	\[
+		x=a \sin\omega t
+	\]
+	If $x$ starts from $B$, $x=a$ when $t=0$, \\
+	then
+	\[
+		x=a\cos\omega t
+	\]
+\end{prop}
+\begin{defi}[Period and amplitude]
+	From the equations $x=a \sin\omega t$ and $x=a\cos\omega t$\\
+	we can see that the period, the time for one complete oscillation, is
+	\[
+		T=\frac{2\pi}{\omega}
+	\]
+	The period is the time taken to go from $O\rightarrow B\rightarrow A\rightarrow O$, or from $B\rightarrow A \rightarrow B$ and that the
+	amplitude, maximum distance from the central point, is $a$.
+\end{defi}
+
+\begin{prop}[Alternative equation of S.H.M.]
+	\[
+		v^2=\omega^2(a^2-x^2)
+	\]
+	\begin{proof}
+		Consider the basic S.H.M. equation $\ddot{x}=-\omega^2x$ and $\ddot{x}=v \frac{\d v}{\d x}$
+		\begin{align*}
+			v \frac{\d v}{\d x} & =-\omega^2x                           \\
+			\int v \d v         & =\int -\omega^2 x \d x                \\
+			\frac{1}{2}v^2      & =-\frac{1}{2}\omega^2x^2+\frac{1}{2}c
+		\end{align*}
+		But $v=)$ when $x$ at its maxumum, $x= a \rightarrow c=a^2\omega^2$
+		\begin{align*}
+			\frac{1}{2}v^2 & =-\frac{1}{2}\omega^2x^2+\frac{1}{2}a^2\omega^2 \\
+			v^2            & =\omega^2(a^2-x^2)
+		\end{align*}
+	\end{proof}
+\end{prop}
+Horizontal
+\begin{eg}
+\end{eg}
+Vertical (relate to mg)
+\begin{eg}
+\end{eg}
 \section{Motion in a circle}
+\subsection{Angular velocity}
+A particle moves in a circle of radius $r$ with constant speed, $v$.\\
 
+Suppose that in a small time $\delta t$ the particle moves through a small angle $\delta\theta$, then the distance moved will be $\delta s = r\delta \theta$
+\\
+and its speed $v=\frac{\delta s}{\delta t}=r\frac{\delta \theta}{\delta t}$\\
+
+and , as $\delta t \rightarrow 0$, $v=r\frac{\d \theta}{\d t}=r\theta$
+
+\[
+	\frac{\d\theta}{\d t}=\theta
+\]
+is the angular velocity, usually written as the Greek letter omega, $\omega$, and so, for a particle moving in a circle with radius $r$, its speed is
+\[
+	v=r\omega
+\]
+
+\begin{center}
+	\includegraphics[scale=0.5]{img_M/13_intro1}
+\end{center}
+
+\subsection{Acceleration}
+A particle moves in a circle of radius $r$ with constant speed , $v$.\\
+
+Suppose that in a small time $\delta t$ the particle moves through a small angle $\delta\theta$, and that its velocity changes from $v_1$ to $v_2$, \\
+
+then its change in velocity is $\delta v =v_2-v_1$, which is shown in the second diagram. \\
+
+The lengths of both $v_1$ and $v_2$ are $v$, and the angle between $v_1$ and $v_2$ is $\delta\theta$.
+\begin{align*}
+	\delta v                  & = 2\times v \sin \frac{\delta\theta}{2}\approx 2v\times\frac{\delta\theta}{2}=v\delta\theta
+	\frac{\delta v}{\delta t} & \approx v\frac{\delta\theta}{\delta t}
+\end{align*}
+as $\delta t \rightarrow 0 $, acceleration:
+\[
+	a=\frac{\d v}{\d t}=v\frac{\d \theta}{\d t}=v\theta
+\]
+But
+\[
+	\theta=\omega=\frac{v}{r} \rightarrow a = \frac{v^2}{r}=r\omega^2
+\]
+Notice that as $\delta\theta \rightarrow 0$, the direction of $\delta v$ becomes perpendicular to both $v_1$ and $v_2$, and so is directed towards the centre of the circle.\\
+
+The acceleration of a particle moving in a circle with speed $v$ is $a=r\omega^2=\frac{v^2}{r}$, and is directed towards the centre of the circle.\\
+
+Alternative proof
+\begin{proof}
+	If a particle moves , with constant speed, in a circle of radius $r$ and centre $O$, then its position vector can be written:
+	\[
+		\mathbf{r}=r\begin{pmatrix} \cos\theta \\ \sin\theta \end{pmatrix} \rightarrow \mathbf{\dot{r}}=r\begin{pmatrix}-\sin\theta \dot{\theta}\\ \cos\theta\dot{\theta}\end{pmatrix}
+	\]
+	Particle moves with constant speed $\rightarrow \dot{\theta}=\omega$ is constant
+	\[
+		\mathbf{\dot{r}}=r\begin{pmatrix}-\sin\theta \\ \cos\theta \end{pmatrix} \rightarrow v=r\omega
+	\]
+	\[
+		\mathbf{\ddot{r}}=r\omega\begin{pmatrix}-\cos\theta \dot{\theta}\\ -\sin\theta\dot{\theta}\end{pmatrix}=-\omega^2r\begin{pmatrix} \cos\theta \\ \sin\theta \end{pmatrix}=-\omega^2\mathbf{r}
+	\]
+	acceleration is
+
+	\[
+		r\omega^2 \mbox{~or~} \frac{v^2}{r}
+	\]
+	directed towards $O$.
+\end{proof}
+\begin{center}
+	\includegraphics[scale=0.5]{img_M/13_intro2}
+\end{center}
+
+Types of problems:
+\begin{enumerate}
+	\item Horizontal
+    \item Conical pendulum
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg1}
+    \end{center}
+	\item Banking
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg2}
+    \end{center}
+	\item Inside an inverted vertical cone
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg3}
+    \end{center}
+\end{enumerate}
+
+\subsection{Motion in a vertical circle}
+
+\begin{prop}
+	\[
+		a=\frac{v^2}{r}
+	\]
+	\begin{proof}
+		If a particle moves in a circle of radius $r$ and centre $O$, then its position vector can be written:
+		\[
+			\mathbf{r}=r\begin{pmatrix}\cos\theta\\ \sin\theta \end{pmatrix}
+        \]
+        \begin{align*}
+        \mathbf{\dot{r}}&=r\begin{pmatrix}-\sin\theta \dot{\theta}\\ \cos\theta\dot{\theta}\end{pmatrix}=r\dot{\theta}\begin{pmatrix}-\sin\theta\\ \cos\theta \end{pmatrix}\\
+        \mathbf{\ddot{r}}=r\begin{pmatrix}-\cos\theta\dot{\theta}^2-\sin\theta\ddot{\theta}\\-\sin\theta\dot{\theta}^2+\cos\theta\ddot{\theta}\end{pmatrix}=-r\dot{\theta}^2\begin{pmatrix}\cos\theta\\\sin\theta\end{pmatrix}+r\ddot{\theta}\begin{pmatrix}-\sin\theta\\\cos\theta\end{pmatrix}
+        \end{align*}
+
+        From this we can see that the speed is $v=r\dot{\theta}=r\omega$,\\
+        and is perpendicular to the radius since $\mathbf{r\cdot\dot{r}}=0$\\
+        
+        We can also see that the acceleration has two components
+        \[
+            r\dot{\theta}^2=r\omega^2=\frac{v^2}{r}
+        \]
+        towards the centre opposite direction to $\mathbf{r}$\\
+        
+        and $r\ddot{\theta}$ perpendicular to the radius which is what we should expect since $v=r\dot{\theta}$ and $r$ is constant.\\
+        
+        In practice we shall onlu use 
+        \[
+            a=r\omega^2=\frac{v^2}{r}
+        \]
+        directed towards the centre of the circle
+	\end{proof}
+\end{prop}
+
+Types of problems
+\begin{enumerate}
+    \item A particle attached to an inextensible string
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg4_1}
+    \end{center}
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg4_2}
+    \end{center}
+	\item A particle moving on the indside of a smooth, hollow sphere
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg5}
+    \end{center}
+	\item A particle attached to a rod
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg6}
+    \end{center}
+	\item A particle moving on the outside of a smooth sphere
+    \begin{center}
+        \includegraphics[scale=0.5]{img_M/13_eg7}
+    \end{center}
+\end{enumerate}
 \section{Statics of rigid bodies 2}
+\subsection{Centre of mass}
+When finding a centre of mass \\
+
+Centres of mass depend on the formula :
+\[
+    M\bar{x}=\sum m_ix_i
+\]
+or Similar, Remember that 
+\[
+    \lim_{\delta x\rightarrow 0}\sum f(x_i)\delta x=\int f(x) \d x
+\]
+
+\subsection{Centre of mass of geometric shapes}
+\subsubsection{Sector}
+In this case we can find a nice method, using the result for the centre of mass of a triangle.
+\\
+We take a sector of angle $2\alpha$ and divide it into many smaller sectors.\\
+
+Mass of whole sector 
+\[
+    M=\frac{1}{2}r^2\times 2\alpha\times\rho=r^2\alpha\rho
+\]
+Consuder each small sector as approximately a triangle, with centre of mass, $G_1$, $2/3$ along the median from $O$\\
+
+Working in polar coordinates for one small sector,
+\[
+    m_i=\frac{1}{2}r^2\rho\delta\theta
+\]
+\[
+    OP=r\rightarrow OG_1 \cong \frac{2}{3}r \rightarrow x_i \cong \frac{2}{3}r\cos\theta 
+\]
+\begin{align*}
+    \lim_{\delta\theta\rightarrow 0}\sum_{\theta=-\alpha}^{\alpha}m_ix_i&=\int_{-\alpha}^{\alpha}\frac{1}{2}r^2\rho\times \frac{2}{3}r\cos\theta\d\theta\\ 
+    &=\frac{2}{3}r^3\rho\sin\alpha\\
+    \bar{x}&=\frac{\sum m_ix_i}{M}=\frac{\frac{2}{3}r^3\rho\sin\alpha}{r^2\alpha\rho}=\frac{2r\sin\alpha}{3\alpha}
+\end{align*}
+By symmetry, $\bar{y}=0$\\
+centre of mass is at $(\frac{2r\sin\alpha}{3\alpha},0)$
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro1}
+\end{center}
+\subsubsection{Circular arc}
+For a circular arc of radius $r$ which subtends an angle of $2\alpha$ at the centre. \\
+
+The length of the arc is $r\times 2\alpha$ \\
+The mass of the arc is $M=2\alpha r \rho$ \\
+
+First divide the arc into several small pieces, each subtending an angle of $\delta\theta$ at the centre \\
+
+The length of each piece is $r\delta\theta\rightarrow m_i=r\rho\delta\theta$\\
+
+We now think of each small arc as a point mass at the centre of the arc, with $x$-corrdinate $x_i=r\cos\theta$\\
+
+\begin{align*}
+    \lim_{\delta\theta\rightarrow0}\sum_{\theta=-\alpha}^{\alpha}m_ix_i&=\int_{-\alpha}^{\alpha}r\rho\times r \cos\theta\d\theta \\
+    &= 2r^2\rho\sin\alpha \\
+    \bar{x}&=\frac{\sum m_ix_i}{M}=\frac{2r^2\rho\sin\alpha}{2r\alpha\rho}=\frac{r\sin\alpha}{\alpha}
+\end{align*}
+By symmetry, $\bar{y}=0$\\
+centre of mass is at $(\frac{r\sin\alpha}{\alpha},0)$
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro2}
+\end{center}
+
+\subsubsection{Others}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_others}
+\end{center}
+
+\subsubsection{Solid of revolution}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg1}
+\end{center}
+\subsubsection{Hemispherical shell}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg2_2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg2_3}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg2_4}
+\end{center}
+\subsubsection{conical}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro3}
+\end{center}
+\subsubsection{Square based pyramid}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro4}
+\end{center}
+\subsubsection{The standard results}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro5}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro6}
+\end{center}
+
+\subsubsection{Tilting and hanging freely}
+
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_intro7}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg3}
+\end{center}
+
+\subsubsection{Hemisphere in equilibrium on a slope}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/14_eg4}
+\end{center}
 
 \section{Relative motion}
+\begin{defi}[relative displacement and velocity]
+    which is direction vector of two position vectors.\\
+    Velocity is diifferentiating the direction vector
+\end{defi}
+
+There are four types of questions
+\begin{enumerate}
+\item Collisions
+\item Closest distance
+\item Best course
+\item Change in apparent direction of wind or current
+\end{enumerate}
+
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/15_eg1}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/15_eg2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/15_eg3}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/15_eg4}
+\end{center}
 
 \section{Elastic collisions in two dimensions}
+\subsection{Impulse}
+\subsection{Momemtum}
 
 \section{Resisted motion of a particle moving in a straight line}
 
 \section{Damped and forced harmonic motion}
+\subsection{Damped (Homogenuous)}
+\subsection{Forced (In homogenuous)}
 
 \section{Stability}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/20_eg1}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/20_eg2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/20_eg3}
+\end{center}
+
 
 \section{Applications of vectors in mechanics}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/21_eg1}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/21_eg2}
+\end{center}
 
 \section{Variable mass}
+\subsection{Examples}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/22_eg1}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/22_eg2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/22_eg3}
+\end{center}
 
 \section{Moments of inertia of a rigid body}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg1}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg3}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg4}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg5}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg6}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/23_eg7}
+\end{center}
+
 
 \section{Rotation of a rigid body about a fixed smooth axis}
 
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/24_eg1}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/24_eg2}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/24_eg3}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/24_eg4}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/24_eg5}
+\end{center}
+\begin{center}
+    \includegraphics[scale=0.5]{img_M/24_eg6}
+\end{center}
 
 
 

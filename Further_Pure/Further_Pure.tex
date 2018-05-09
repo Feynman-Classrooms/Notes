@@ -29,85 +29,85 @@
 \section{Proof by mathematical induction}
 \subsection{Summation of series}
 \begin{eg}
-Prove by the method of mathematical induction , that, for $n\in\mathbb{Z}^+ , \sum_{r=1}^n(2r-1)=n^2$.
-\begin{proof}
-\begin{align*}
-n=1;LHS&=\sum_{r=1}^1(2r-1)=2(1)-1=1\\
-RHS&=1^2=1
-\end{align*}
-As $LHS=RHS$, the summation formula is true for $n=1$,\\
+	Prove by the method of mathematical induction , that, for $n\in\mathbb{Z}^+ , \sum_{r=1}^n(2r-1)=n^2$.
+	\begin{proof}
+		\begin{align*}
+			n=1;LHS & =\sum_{r=1}^1(2r-1)=2(1)-1=1 \\
+			RHS     & =1^2=1
+		\end{align*}
+		As $LHS=RHS$, the summation formula is true for $n=1$,\\
 
-Assume hat the summation formula is true for $n=k$,
-\begin{equation*}
-i.e. \sum_{r=1}^k(2r-1)=k^2
-\end{equation*}
-With n=k+1 terms the summation formula becomes:
-\begin{align*}
-\sum_{r=1}^{k+1}(2r-1)&=1+2+3+\cdots+(2k-1)+(2(2k+1)-1)\\
-&=k^2+(2(k+1)-1)\\
-&=k^2+(2k+2-1)\\
-&=k^2+2k+1\\
-&=(k+1)^2
-\end{align*}
-Therefore , summation formula is true when $n=k+1$\\
-If the summation formula is true for $n=k$ thenit is shown to be true for $n=k+1$. As the result is true for $n=1$, it is now also true for all $n\geq1$ and $n\in\mathbb{Z}^+$ by mathematical induction..
-\end{proof}
+		Assume hat the summation formula is true for $n=k$,
+		\begin{equation*}
+			i.e. \sum_{r=1}^k(2r-1)=k^2
+		\end{equation*}
+		With n=k+1 terms the summation formula becomes:
+		\begin{align*}
+			\sum_{r=1}^{k+1}(2r-1) & =1+2+3+\cdots+(2k-1)+(2(2k+1)-1) \\
+			                       & =k^2+(2(k+1)-1)                  \\
+			                       & =k^2+(2k+2-1)                    \\
+			                       & =k^2+2k+1                        \\
+			                       & =(k+1)^2
+		\end{align*}
+		Therefore , summation formula is true when $n=k+1$\\
+		If the summation formula is true for $n=k$ thenit is shown to be true for $n=k+1$. As the result is true for $n=1$, it is now also true for all $n\geq1$ and $n\in\mathbb{Z}^+$ by mathematical induction..
+	\end{proof}
 \end{eg}
 
 \begin{eg}
-Prove by the method of mathematical induction, that , for $n\in\mathbb{Z}^+ , \sum_{r=1}^nr^2=\frac{1}{6}n(n+1)(2n+1)$
-\begin{proof}
-\begin{align*}
-n=1; LHS&=\sum_{r=1}^1r^2=1^2=1\\
-RHS&=\frac{1}{6}(1)(2)(3)=\frac{6}{6}=1
-\end{align*}
-As $LHS=RHS$, the summation formula is true for n=1\\
+	Prove by the method of mathematical induction, that , for $n\in\mathbb{Z}^+ , \sum_{r=1}^nr^2=\frac{1}{6}n(n+1)(2n+1)$
+	\begin{proof}
+		\begin{align*}
+			n=1; LHS & =\sum_{r=1}^1r^2=1^2=1              \\
+			RHS      & =\frac{1}{6}(1)(2)(3)=\frac{6}{6}=1
+		\end{align*}
+		As $LHS=RHS$, the summation formula is true for n=1\\
 
-Assume that the summation formula is true for $n=k$
-\begin{equation*}
-i.e.\sum_{r=1}^kr^2=\frac{1}{6}k(k+1)(2k+1)
-\end{equation*}
-With $n=k+1$ terms the summation formula becomes:
-\begin{align*}
-\sum_{r=1}^{k+1}r^2&=1^2+2^2+3^2+\cdots+k^2+(k+1)^2\\
-&=\frac{1}{6}k(k+1)(2k+1)+(k+1)^2\\
-&=\frac{1}{6}(k+1)[k(2k+1)+6(k+1)]\\
-&=\frac{1}{6}(k+1)[2k^2+k+6k+6]\\
-&=\frac{1}{6}(k+1)[2k^2+7k+6]\\
-&=\frac{1}{6}(k+1)(k+2)(2k+3)\\
-&=\frac{1}{6}(k+1)(k+1+1)(2(k+1)+1)
-\end{align*}
-Therefore, summation formula is true when $n=k+1$\\
-If the summation formula is true for $n=k$ thenit is shown to be true for $n=k+1$. As the result is true for $n=1$, it is now also true for all $n\geq1$ and $n\in\mathbb{Z}^+$ by mathematical induction..
-\end{proof}
+		Assume that the summation formula is true for $n=k$
+		\begin{equation*}
+			i.e.\sum_{r=1}^kr^2=\frac{1}{6}k(k+1)(2k+1)
+		\end{equation*}
+		With $n=k+1$ terms the summation formula becomes:
+		\begin{align*}
+			\sum_{r=1}^{k+1}r^2 & =1^2+2^2+3^2+\cdots+k^2+(k+1)^2    \\
+			                    & =\frac{1}{6}k(k+1)(2k+1)+(k+1)^2   \\
+			                    & =\frac{1}{6}(k+1)[k(2k+1)+6(k+1)]  \\
+			                    & =\frac{1}{6}(k+1)[2k^2+k+6k+6]     \\
+			                    & =\frac{1}{6}(k+1)[2k^2+7k+6]       \\
+			                    & =\frac{1}{6}(k+1)(k+2)(2k+3)       \\
+			                    & =\frac{1}{6}(k+1)(k+1+1)(2(k+1)+1)
+		\end{align*}
+		Therefore, summation formula is true when $n=k+1$\\
+		If the summation formula is true for $n=k$ thenit is shown to be true for $n=k+1$. As the result is true for $n=1$, it is now also true for all $n\geq1$ and $n\in\mathbb{Z}^+$ by mathematical induction..
+	\end{proof}
 \end{eg}
 
 \begin{eg}
-Prove by the method of mathematical induction, that , for $n\in\mathbb{Z}^+ , \sum_{r=1}^nr^2=\frac{1}{6}n(n+1)(2n+1)$
-\begin{proof}
-\begin{align*}
-n=1; LHS&=\sum_{r=1}^1r^2=1^2=1\\
-RHS&=\frac{1}{6}(1)(2)(3)=\frac{6}{6}=1
-\end{align*}
-As $LHS=RHS$, the summation formula is true for n=1\\
+	Prove by the method of mathematical induction, that , for $n\in\mathbb{Z}^+ , \sum_{r=1}^nr^2=\frac{1}{6}n(n+1)(2n+1)$
+	\begin{proof}
+		\begin{align*}
+			n=1; LHS & =\sum_{r=1}^1r^2=1^2=1              \\
+			RHS      & =\frac{1}{6}(1)(2)(3)=\frac{6}{6}=1
+		\end{align*}
+		As $LHS=RHS$, the summation formula is true for n=1\\
 
-Assume that the summation formula is true for $n=k$
-\begin{equation*}
-i.e.\sum_{r=1}^kr^2=\frac{1}{6}k(k+1)(2k+1)
-\end{equation*}
-With $n=k+1$ terms the summation formula becomes:
-\begin{align*}
-\sum_{r=1}^{k+1}r^2&=1^2+2^2+3^2+\cdots+k^2+(k+1)^2\\
-&=\frac{1}{6}k(k+1)(2k+1)+(k+1)^2\\
-&=\frac{1}{6}(k+1)[k(2k+1)+6(k+1)]\\
-&=\frac{1}{6}(k+1)[2k^2+k+6k+6]\\
-&=\frac{1}{6}(k+1)[2k^2+7k+6]\\
-&=\frac{1}{6}(k+1)(k+2)(2k+3)\\
-&=\frac{1}{6}(k+1)(k+1+1)(2(k+1)+1)
-\end{align*}
-Therefore, summation formula is true when $n=k+1$\\
-If the summation formula is true for $n=k$ thenit is shown to be true for $n=k+1$. As the result is true for $n=1$, it is now also true for all $n\geq1$ and $n\in\mathbb{Z}^+$ by mathematical induction..
-\end{proof}
+		Assume that the summation formula is true for $n=k$
+		\begin{equation*}
+			i.e.\sum_{r=1}^kr^2=\frac{1}{6}k(k+1)(2k+1)
+		\end{equation*}
+		With $n=k+1$ terms the summation formula becomes:
+		\begin{align*}
+			\sum_{r=1}^{k+1}r^2 & =1^2+2^2+3^2+\cdots+k^2+(k+1)^2    \\
+			                    & =\frac{1}{6}k(k+1)(2k+1)+(k+1)^2   \\
+			                    & =\frac{1}{6}(k+1)[k(2k+1)+6(k+1)]  \\
+			                    & =\frac{1}{6}(k+1)[2k^2+k+6k+6]     \\
+			                    & =\frac{1}{6}(k+1)[2k^2+7k+6]       \\
+			                    & =\frac{1}{6}(k+1)(k+2)(2k+3)       \\
+			                    & =\frac{1}{6}(k+1)(k+1+1)(2(k+1)+1)
+		\end{align*}
+		Therefore, summation formula is true when $n=k+1$\\
+		If the summation formula is true for $n=k$ thenit is shown to be true for $n=k+1$. As the result is true for $n=1$, it is now also true for all $n\geq1$ and $n\in\mathbb{Z}^+$ by mathematical induction..
+	\end{proof}
 \end{eg}
 
 \subsection{Divisibility}
